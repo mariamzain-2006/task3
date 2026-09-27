@@ -1,0 +1,2054 @@
+*{
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+}
+header{
+display: flex;
+align-items: center;
+justify-content: space-between;
+background-color: rgb(80, 74, 235);
+flex-direction: row;
+width: 100%;
+height: 80px;
+color: white;
+    border-radius: 0px 0px 30px 30px;
+    padding: 30px;
+    position: fixed;
+    img{
+       display: flex;
+        width: 110px;
+        
+    }
+    button{
+        display: inline-block;
+        width: 100px;
+        height: 40px;
+        border-radius: 20px;
+        border: none;
+    }
+
+
+}
+nav ul{
+    position: relative;
+    left:  150px;
+    list-style: none;
+    display: flex;
+    font-size: 20px;
+    gap:30px
+       
+        
+    
+}
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+   height:  800px;
+    background-color: rgb(80, 74, 235);
+    border-radius: 0px 0px 100px 100px;
+}
+.text-hero{
+    display: flex;
+     width: 50%;
+    justify-content: space-between;
+    color: white;
+    flex-direction: column;
+    line-height: 30px;
+    gap:30px;
+    padding: 0px 40px;
+    h4{
+        font-size: 30px;
+    }
+    h1{
+          font-size: 50px; 
+        line-height: 60px;
+    }
+    input{
+        display: flex;
+        height: 50px;
+        width: 90%;
+        border: none;
+        padding: 10px 20px;
+        border-radius:    20px;
+          margin: 20px;
+          
+    }
+    button{
+        display: inline-block;
+        width: 200px;
+        height: 50px;
+        position: relative;
+       bottom :100px;
+        left: 391px;
+        border-radius:    20px;
+         color: white;
+        border:none;
+        background-color:rgb(208, 74, 74);
+      
+    }
+    
+}
+.img-hero{
+    display: flex;
+    
+    flex-direction: column;
+    padding: 0px 30px;
+    img{
+         border-radius: 20px;
+    }
+     
+}
+.span-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(80, 74, 235);
+    color: white;
+    width: 60px;
+    height: 30px;
+    border-radius: 20px;
+    position: relative;
+    left: 320px;
+    top:60px;
+    
+}
+.span-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(208, 74, 74);
+    color: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+   right:  50px;
+    bottom: 50px;
+    font-size: 30px;
+    
+}
+.all-card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+flex-direction: row;
+width: 100%;
+     position: relative;
+        bottom: 70px;
+}
+.card{
+
+display: flex;
+    align-items: center;
+    justify-content: center;
+flex-direction: column;
+width: 250px;
+gap:30px;
+height: 200px;
+    background-color: white;
+    border-radius: 20px;
+    
+    i{
+        display: flex;
+       font-size: 100px;
+        color: blue;
+       
+    }
+
+}
+.trend{
+  width: 100%;
+display: flex;
+    align-items: center;
+    justify-content: space-between;
+flex-direction: column; 
+margin-top: 100px; 
+height: 300px;
+    gap:50px;
+}
+.trent-text{
+    display: flex;
+    gap:20px;
+    justify-content: space-between;
+    flex-direction: column;
+    h6{
+        font-size: 20px;
+        color: rgb(208, 74, 74);
+    }
+}
+.trend-text-second{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap:800px;
+    h3{
+     font-size: 30px;   
+    }
+    button{
+         display: inline-block;
+        width: 100px;
+        height: 50px;
+        
+        border-radius:   20px;
+         color: white;
+        border:none;
+        background-color:rgb(208, 74, 74);
+    }
+}
+
+.card-trend{
+
+     display: flex;
+     height: 300px;
+  padding:  0px 30px;
+     justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+     
+}
+
+.first{
+    background-color: rgba(183, 179, 179, 0.47);
+    border-radius:  20px 20px 0px 0px;
+    img{
+        display: flex;
+    border-radius: 20px;
+        width: 250px;
+        
+}
+span{
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(80, 74, 235);
+    color: white;
+    width: 60px;
+    height: 40px;
+    border-radius: 10px;
+    position: relative;
+    left: 180px;
+    bottom:150px;
+    flex-direction: column;
+
+     h6{
+        font-size: 20px;
+    }
+    p{
+          font-size: 15px;
+    }
+    
+}
+
+
+    }
+    .all-card-trend{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: row;
+    }
+    .second-text{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        h6{
+            font-size: 20px;
+        }
+        i{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width:40px;
+            height: 40px;
+            border-radius: 50%;
+            background-color: rgb(208, 74, 74);
+            color: white;
+        }
+        i:hover{
+    background-color:rgb(80, 74, 235) ;
+    color: #ffffff;
+}
+
+    }
+    .second{
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(183, 179, 179, 0.47);
+        border-radius:  0px 0px 20px 20px;
+     
+        gap:4px;
+        p{
+            font-size: 20px;
+        }
+    }
+    .play{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        height: 600px;
+        padding-bottom: 100px;
+        margin: 200px 20px;
+        border-radius: 100px;
+         background-color: rgba(183, 179, 179, 0.47);
+    }
+    .text-play{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding:   20px ;
+        
+        
+        h2{
+            font-size: 30px;
+        }
+    }
+    .second-text-play{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap:900px;
+        button{
+         display: inline-block;
+        width: 100px;
+        height: 50px;
+        
+        border-radius:   20px;
+         color: white;
+        border:none;
+        background-color:rgb(208, 74, 74);
+    }
+    }
+    .card-play{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: white;
+        border-radius: 20px;
+        gap:10px;
+        img{
+            display: flex;
+           border-radius: 20px;
+        }
+        button{
+            display: inline-block;
+        width: 100px;
+        height: 50px;
+        
+        border-radius:   20px;
+         color: white;
+        border:none;
+        background-color:rgb(208, 74, 74);
+            position: relative;
+            top:20px;
+        }
+        h6{
+            font-size: 15px;
+        }
+        h3{
+           font-size: 20px; 
+        }
+    }
+    .all-card-play{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        gap:10px;
+        border-radius: 10px;
+        
+    }
+    .game{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap:30px;
+       
+        
+        border-radius: 100px;
+        flex-direction: column;
+        margin: 100px 0px;
+    }
+    .game-text{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        h4{
+font-size: 20px;
+            color:rgb(208, 74, 74);
+        }
+        h2{
+font-size: 40px;
+        }
+    }
+    .all-card-game{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap:5px;
+        flex-direction: row;
+    }
+    .card-game{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        
+        
+        h5{
+font-size: 20px;
+            padding-left:80px;
+            background-color: rgb(80, 74, 235);
+            width: 100%;
+            padding-top:7px;
+            height: 40px;
+             border-radius: 20px 20px 0px 0px; 
+            color: white;
+            justify-content: center;
+        }
+    }*{
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+}
+header{
+display: flex;
+align-items: center;
+justify-content: space-between;
+background-color: rgb(80, 74, 235);
+flex-direction: row;
+width: 100%;
+height: 80px;
+color: white;
+    border-radius: 0px 0px 30px 30px;
+    padding: 30px;
+    img{
+       display: flex;
+        width: 110px;
+        
+    }
+    button{
+        display: inline-block;
+        width: 100px;
+        height: 40px;
+        border-radius: 20px;
+        border: none;
+    }
+
+
+}
+nav ul{
+    position: relative;
+    left:  150px;
+    list-style: none;
+    display: flex;
+    font-size: 20px;
+    gap:30px
+       
+        
+    
+}
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+   height:  800px;
+    background-color: rgb(80, 74, 235);
+    border-radius: 0px 0px 100px 100px;
+}
+.text-hero{
+    display: flex;
+     width: 50%;
+    justify-content: space-between;
+    color: white;
+    flex-direction: column;
+    line-height: 30px;
+    gap:30px;
+    padding: 0px 40px;
+    h4{
+        font-size: 30px;
+    }
+    h1{
+          font-size: 50px; 
+        line-height: 60px;
+    }
+    input{
+        display: flex;
+        height: 50px;
+        width: 90%;
+        border: none;
+        padding: 10px 20px;
+        border-radius:    20px;
+          margin: 20px;
+          
+    }
+    button{
+        display: inline-block;
+        width: 200px;
+        height: 50px;
+        position: relative;
+       bottom :100px;
+        left: 391px;
+        border-radius:    20px;
+         color: white;
+        border:none;
+        background-color:rgb(208, 74, 74);
+      
+    }
+    
+}
+.img-hero{
+    display: flex;
+    
+    flex-direction: column;
+    padding: 0px 30px;
+    img{
+         border-radius: 20px;
+    }
+     
+}
+.span-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(80, 74, 235);
+    color: white;
+    width: 60px;
+    height: 30px;
+    border-radius: 20px;
+    position: relative;
+    left: 320px;
+    top:60px;
+    
+}
+.span-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(208, 74, 74);
+    color: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+   right:  50px;
+    bottom: 50px;
+    font-size: 30px;
+    
+}
+.all-card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+flex-direction: row;
+width: 100%;
+     position: relative;
+        bottom: 70px;
+}
+.card{
+
+display: flex;
+    align-items: center;
+    justify-content: center;
+flex-direction: column;
+width: 250px;
+gap:30px;
+height: 200px;
+    background-color: white;
+    border-radius: 20px;
+    
+    i{
+        display: flex;
+       font-size: 100px;
+        color: blue;
+       
+    }
+
+}
+.trend{
+  width: 100%;
+display: flex;
+    align-items: center;
+    justify-content: space-between;
+flex-direction: column; 
+margin-top: 100px; 
+height: 300px;
+    gap:50px;
+}
+.trent-text{
+    display: flex;
+    gap:20px;
+    justify-content: space-between;
+    flex-direction: column;
+    h6{
+        font-size: 20px;
+        color: rgb(208, 74, 74);
+    }
+}
+.trend-text-second{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap:800px;
+    h3{
+     font-size: 30px;   
+    }
+    button{
+         display: inline-block;
+        width: 100px;
+        height: 50px;
+        
+        border-radius:   20px;
+         color: white;
+        border:none;
+        background-color:rgb(208, 74, 74);
+    }
+}
+
+.card-trend{
+
+     display: flex;
+     height: 300px;
+  padding:  0px 30px;
+     justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+     
+}
+
+.first{
+    background-color: rgba(183, 179, 179, 0.47);
+    border-radius:  20px 20px 0px 0px;
+    img{
+        display: flex;
+    border-radius: 20px;
+        width: 250px;
+        
+}
+span{
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(80, 74, 235);
+    color: white;
+    width: 60px;
+    height: 40px;
+    border-radius: 10px;
+    position: relative;
+    left: 180px;
+    bottom:150px;
+    flex-direction: column;
+     h6{
+        font-size: 20px;
+    }
+    p{
+          font-size: 15px;
+    }
+    
+}
+    }
+    .all-card-trend{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: row;
+    }
+    .second-text{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        h6{
+            font-size: 20px;
+        }
+        i{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width:40px;
+            height: 40px;
+            border-radius: 50%;
+            background-color: rgb(208, 74, 74);
+            color: white;
+        }
+
+    }
+    .second{
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(183, 179, 179, 0.47);
+        border-radius:  0px 0px 20px 20px;
+     
+        gap:4px;
+        p{
+            font-size: 20px;
+        }
+    }
+    .play{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        height: 600px;
+        padding-bottom: 100px;
+        margin: 200px 20px;
+        border-radius: 100px;
+         background-color: rgba(183, 179, 179, 0.47);
+    }
+    .text-play{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding:   20px ;
+        
+        
+        h2{
+            font-size: 30px;
+        }
+    }
+    .second-text-play{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap:900px;
+        button{
+         display: inline-block;
+        width: 100px;
+        height: 50px;
+        
+        border-radius:   20px;
+         color: white;
+        border:none;
+        background-color:rgb(208, 74, 74);
+    }
+    }
+    .card-play{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: white;
+        border-radius: 20px;
+        gap:10px;
+        img{
+            display: flex;
+           border-radius: 20px;
+        }
+        button{
+            display: inline-block;
+        width: 100px;
+        height: 50px;
+        
+        border-radius:   20px;
+         color: white;
+        border:none;
+        background-color:rgb(208, 74, 74);
+            position: relative;
+            top:20px;
+        }
+        h6{
+            font-size: 15px;
+        }
+        h3{
+           font-size: 20px; 
+        }
+    }
+    .all-card-play{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        gap:10px;
+        border-radius: 10px;
+        
+    }
+    .game{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap:30px;
+       
+        
+        border-radius: 100px;
+        flex-direction: column;
+        margin: 100px 0px;
+    }
+    .game-text{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        h4{
+font-size: 20px;
+            color:rgb(208, 74, 74);
+        }
+        h2{
+font-size: 40px;
+        }
+    }
+    .all-card-game{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap:5px;
+        flex-direction: row;
+    }
+    .card-game{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        
+        
+        h5{
+font-size: 20px;
+            padding-left:80px;
+            background-color: rgb(80, 74, 235);
+            width: 100%;
+            padding-top:7px;
+            height: 40px;
+             border-radius: 20px 20px 0px 0px; 
+            color: white;
+            justify-content: center;
+        }
+    }
+.game-2{
+   display: flex; 
+    width: 100%;
+    height: 900px;
+   align-items: center;
+   justify-content: space-around;
+   flex-direction: row;
+    
+    
+}
+.card-1{
+     display: flex; 
+     background-color: rgb(234, 229, 229);
+   width: 400px;
+   height:600px; 
+   padding: 20px;
+   justify-content: center;
+   gap:30px;
+   flex-direction: column;
+   border-radius: 20px;
+   z-index: 2;
+   position: absolute;
+    left: 120px;
+    
+    button{
+            display: inline-block;
+        width: 100px;
+        height: 50px;
+        
+        border-radius:   20px;
+         color: white;
+        border:none;
+        background-color:rgb(208, 74, 74);
+            position: relative;
+            top:20px;
+        }
+        h5{
+font-size: 20px;
+            color: red;
+        }
+        h1{
+            span{
+                color: blue;
+            }
+font-size: 50px;
+        }
+    }
+    .input-game{
+
+        input{
+        display: flex;
+        height: 50px;
+        width: 90%;
+        border: none;
+        padding: 10px 20px;
+        border-radius:    20px;
+          margin: 20px;
+          
+    }
+   
+    
+}
+ .input-game .btn{ display: inline-block;
+    
+        width: 150px;
+        height: 50px;
+       
+        
+        border-radius:    20px;
+         color: white;
+        border:none;
+        background-color:rgb(208, 74, 74);
+      position: relative;
+    left:200px;
+     top:-70px;
+  
+    }
+    
+    .card-2{
+        
+        display: flex; 
+    
+   width: 600px;
+   height:600px; 
+   padding: 20px;
+   justify-content: center;
+   
+   z-index: 1;
+   border-radius: 20px;
+   
+   position: relative;
+
+    }
+    .card-3{
+
+display: flex; 
+    background-color: rgb(234, 229, 229);
+   width: 400px;
+   height:600px; 
+   padding: 20px;
+   justify-content: center;
+   gap:30px;
+   flex-direction: column;
+   border-radius: 20px;
+   z-index: 2;
+   position: absolute;
+        right:  10px;
+      
+    button{
+            display: inline-block;
+        width: 100px;
+        height: 50px;
+        
+        border-radius:   20px;
+         color: white;
+        border:none;
+        background-color:rgb(208, 74, 74);
+            position: relative;
+            top:20px;
+        }
+        h5{
+font-size: 20px;
+            color: red;
+        }
+        h1{
+            span{
+                color: blue;
+            }
+font-size: 50px;
+        }
+    }
+
+    
+*{
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+}
+header{
+display: flex;
+align-items: center;
+justify-content: space-between;
+background-color: rgb(80, 74, 235);
+flex-direction: row;
+width: 100%;
+height: 80px;
+color: white;
+    border-radius: 0px 0px 30px 30px;
+    padding: 30px;
+    img{
+       display: flex;
+        width: 110px;
+        
+    }
+    button{
+        display: inline-block;
+        width: 100px;
+        height: 40px;
+        border-radius: 20px;
+        border: none;
+    }
+
+
+}
+nav ul{
+    position: relative;
+    left:  150px;
+    list-style: none;
+    display: flex;
+    font-size: 20px;
+    gap:30px
+       
+        
+    
+}
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+   height:  800px;
+    background-color: rgb(80, 74, 235);
+    border-radius: 0px 0px 100px 100px;
+}
+.text-hero{
+    display: flex;
+     width: 50%;
+    justify-content: space-between;
+    color: white;
+    flex-direction: column;
+    line-height: 30px;
+    gap:30px;
+    padding: 0px 40px;
+    h4{
+        font-size: 30px;
+    }
+    h1{
+          font-size: 50px; 
+        line-height: 60px;
+    }
+    input{
+        display: flex;
+        height: 50px;
+        width: 90%;
+        border: none;
+        padding: 10px 20px;
+        border-radius:    20px;
+          margin: 20px;
+          
+    }
+    button{
+        display: inline-block;
+        width: 200px;
+        height: 50px;
+        position: relative;
+       bottom :100px;
+        left: 391px;
+        border-radius:    20px;
+         color: white;
+        border:none;
+        background-color:rgb(208, 74, 74);
+      
+    }
+    
+}
+.img-hero{
+    display: flex;
+    
+    flex-direction: column;
+    padding: 0px 30px;
+    img{
+         border-radius: 20px;
+    }
+     
+}
+.span-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(80, 74, 235);
+    color: white;
+    width: 60px;
+    height: 30px;
+    border-radius: 20px;
+    position: relative;
+    left: 320px;
+    top:60px;
+    
+}
+.span-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(208, 74, 74);
+    color: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+   right:  50px;
+    bottom: 50px;
+    font-size: 30px;
+    
+}
+.all-card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+flex-direction: row;
+width: 100%;
+     position: relative;
+        bottom: 70px;
+}
+.card{
+
+display: flex;
+    align-items: center;
+    justify-content: center;
+flex-direction: column;
+width: 250px;
+gap:30px;
+height: 200px;
+    background-color: white;
+    border-radius: 20px;
+    
+    i{
+        display: flex;
+       font-size: 100px;
+        color: blue;
+       
+    }
+
+}
+.trend{
+  width: 100%;
+display: flex;
+    align-items: center;
+    justify-content: space-between;
+flex-direction: column; 
+margin-top: 100px; 
+height: 300px;
+    gap:50px;
+}
+.trent-text{
+    display: flex;
+    gap:20px;
+    justify-content: space-between;
+    flex-direction: column;
+    h6{
+        font-size: 20px;
+        color: rgb(208, 74, 74);
+    }
+}
+.trend-text-second{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap:800px;
+    h3{
+     font-size: 30px;   
+    }
+    button{
+         display: inline-block;
+        width: 100px;
+        height: 50px;
+        
+        border-radius:   20px;
+         color: white;
+        border:none;
+        background-color:rgb(208, 74, 74);
+    }
+}
+
+.card-trend{
+
+     display: flex;
+     height: 300px;
+  padding:  0px 30px;
+     justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+     
+}
+
+.first{
+    background-color: rgba(183, 179, 179, 0.47);
+    border-radius:  20px 20px 0px 0px;
+    img{
+        display: flex;
+    border-radius: 20px;
+        width: 250px;
+        
+}
+span{
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(80, 74, 235);
+    color: white;
+    width: 60px;
+    height: 40px;
+    border-radius: 10px;
+    position: relative;
+    left: 180px;
+    bottom:150px;
+    flex-direction: column;
+     h6{
+        font-size: 20px;
+    }
+    p{
+          font-size: 15px;
+    }
+    
+}
+    }
+    .all-card-trend{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: row;
+    }
+    .second-text{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        h6{
+            font-size: 20px;
+        }
+        i{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width:40px;
+            height: 40px;
+            border-radius: 50%;
+            background-color: rgb(208, 74, 74);
+            color: white;
+        }
+
+    }
+    .second{
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(183, 179, 179, 0.47);
+        border-radius:  0px 0px 20px 20px;
+     
+        gap:4px;
+        p{
+            font-size: 20px;
+        }
+    }
+    .play{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        height: 600px;
+        padding-bottom: 100px;
+        margin: 200px 20px;
+        border-radius: 100px;
+         background-color: rgba(183, 179, 179, 0.47);
+    }
+    .text-play{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding:   20px ;
+        
+        
+        h2{
+            font-size: 30px;
+        }
+    }
+    .second-text-play{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap:900px;
+        button{
+         display: inline-block;
+        width: 100px;
+        height: 50px;
+        
+        border-radius:   20px;
+         color: white;
+        border:none;
+        background-color:rgb(208, 74, 74);
+    }
+    }
+    .card-play{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: white;
+        border-radius: 20px;
+        gap:10px;
+        img{
+            display: flex;
+           border-radius: 20px;
+        }
+        button{
+            display: inline-block;
+        width: 100px;
+        height: 50px;
+        
+        border-radius:   20px;
+         color: white;
+        border:none;
+        background-color:rgb(208, 74, 74);
+            position: relative;
+            top:20px;
+        }
+        h6{
+            font-size: 15px;
+        }
+        h3{
+           font-size: 20px; 
+        }
+    }
+    .all-card-play{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        gap:10px;
+        border-radius: 10px;
+        
+    }
+    .game{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap:30px;
+       
+        
+        border-radius: 100px;
+        flex-direction: column;
+        margin: 100px 0px;
+    }
+    .game-text{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        h4{
+font-size: 20px;
+            color:rgb(208, 74, 74);
+        }
+        h2{
+font-size: 40px;
+        }
+    }
+    .all-card-game{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap:5px;
+        flex-direction: row;
+    }
+    .card-game{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        
+        
+        h5{
+font-size: 20px;
+            padding-left:80px;
+            background-color: rgb(80, 74, 235);
+            width: 100%;
+            padding-top:7px;
+            height: 40px;
+             border-radius: 20px 20px 0px 0px; 
+            color: white;
+            justify-content: center;
+        }
+    }
+.game-2{
+   display: flex; 
+    width: 100%;
+    height: 700px;
+   align-items: center;
+   justify-content: space-around;
+   flex-direction: row;
+    
+    
+}
+.card-1{
+     display: flex; 
+     background-color: rgb(234, 229, 229);
+   width: 400px;
+   height:600px; 
+   padding: 20px;
+   justify-content: center;
+   gap:30px;
+   flex-direction: column;
+   border-radius: 20px;
+   z-index: 2;
+   position: absolute;
+    left: 120px;
+    
+    
+    button{
+            display: inline-block;
+        width: 100px;
+        height: 50px;
+        
+        border-radius:   20px;
+         color: white;
+        border:none;
+        background-color:rgb(208, 74, 74);
+            position: relative;
+            top:20px;
+        }
+        h5{
+font-size: 20px;
+            color: red;
+        }
+        h1{
+            span{
+                color: blue;
+            }
+font-size: 50px;
+        }
+    }
+    .input-game{
+
+        input{
+        display: flex;
+        height: 50px;
+        width: 90%;
+        border: none;
+        padding: 10px 20px;
+        border-radius:    20px;
+          margin: 20px;
+          
+    }
+   
+    
+}
+ .input-game .btn{ display: inline-block;
+    
+        width: 150px;
+        height: 50px;
+       
+        
+        border-radius:    20px;
+         color: white;
+        border:none;
+        background-color:rgb(208, 74, 74);
+      position: relative;
+    left:200px;
+     top:-70px;
+  
+    }
+    
+    .card-2{
+        
+        display: flex; 
+    
+   width: 600px;
+   height:600px; 
+   padding: 20px;
+   justify-content: center;
+   
+   z-index: 1;
+   border-radius: 20px;
+   
+   position: relative;
+
+    }
+    .card-3{
+
+display: flex; 
+    background-color: rgb(234, 229, 229);
+   width: 400px;
+   height:600px; 
+   padding: 20px;
+   justify-content: center;
+   gap:30px;
+   flex-direction: column;
+   border-radius: 20px;
+   z-index: 2;
+   position: absolute;
+        right:  10px;
+      
+    button{
+            display: inline-block;
+        width: 100px;
+        height: 50px;
+        
+        border-radius:   20px;
+         color: white;
+        border:none;
+        background-color:rgb(208, 74, 74);
+            position: relative;
+            top:20px;
+        }
+        h5{
+font-size: 20px;
+            color: red;
+        }
+        h1{
+            span{
+                color: blue;
+            }
+font-size: 50px;
+        }
+    }
+
+  .site-footer {
+    background-color: #0084ff; /* اللون الأزرق الفاتح المميز للتصميم */
+    border-top-left-radius: 150px; /* انحناء الزاوية العلوية اليسرى */
+    border-top-right-radius: 150px; /* انحناء الزاوية العلوية اليمنى */
+    padding: 60px 20px 40px 20px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    margin-top: auto;
+}
+
+/* تأثير خلفية تدرج ناعمة خلف النصوص مثل القالب الأصلي */
+.site-footer::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle at 30% 50%, rgba(0, 110, 255, 0.8), transparent 70%);
+    pointer-events: none;
+}
+
+.footer-container {
+    position: relative;
+    z-index: 1;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* تنسيق النصوص والروابط داخل الفوتر */
+.footer-container p {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.8;
+}
+
+.footer-container a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+    transition: opacity 0.3s ease;
+}
+
+.footer-container a:hover {
+    opacity: 0.8;
+    text-decoration: underline;
+}
+
+/* التجاوب مع الشاشات الصغيرة (الهواتف والأجهزة اللوحية) */
+@media (max-width: 768px) {
+    .site-footer {
+        border-top-left-radius: 60px;
+        border-top-right-radius: 60px;
+        padding: 40px 15px 30px 15px;
+    }
+
+    .footer-container p {
+        font-size: 14px;
+    }
+}  
+/* =========================
+   TABLET
+========================= */
+
+@media (max-width: 992px){
+
+    header{
+        padding: 20px;
+    }
+
+    nav ul{
+        left: 0;
+        gap: 15px;
+        font-size: 16px;
+    }
+
+    .hero{
+        height: auto;
+        min-height: 650px;
+        padding: 50px 30px;
+        gap: 30px;
+    }
+
+    .text-hero{
+        width: 50%;
+        padding: 0;
+    }
+
+    .text-hero h1{
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .text-hero button{
+        left: 0;
+        bottom: 0;
+    }
+
+    .text-hero input{
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .img-hero{
+        width: 50%;
+        padding: 0;
+    }
+
+    .img-hero img{
+        width: 100%;
+    }
+
+    .span-1{
+        left: 0;
+    }
+
+    .span-2{
+        right: 20px;
+    }
+
+    .all-card{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .trend-text-second{
+        width: 90%;
+        gap: 0;
+    }
+
+    .all-card-trend{
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .play{
+        width: 95%;
+        margin: 150px auto;
+        height: auto;
+        padding: 50px 20px;
+    }
+
+    .second-text-play{
+        width: 90%;
+        gap: 0;
+    }
+
+    .all-card-play{
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .all-card-game{
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .game-2{
+        height: auto;
+        min-height: 700px;
+        flex-direction: column;
+        gap: 30px;
+        position: relative;
+    }
+
+    .card-1,
+    .card-3{
+        position: relative;
+        left: auto;
+        right: auto;
+    }
+
+    .card-2{
+        position: relative;
+    }
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 768px){
+
+    header{
+        height: auto;
+        min-height: 70px;
+        padding: 15px 20px;
+        gap: 15px;
+    }
+
+    header img{
+        width: 90px;
+    }
+
+    header button{
+        width: 80px;
+        height: 35px;
+    }
+
+    nav ul{
+        display: none;
+    }
+
+
+    /* HERO */
+
+    .hero{
+        flex-direction: column;
+        height: auto;
+        min-height: auto;
+        padding: 60px 20px 100px;
+        border-radius: 0 0 60px 60px;
+        gap: 40px;
+    }
+
+    .text-hero{
+        width: 100%;
+        gap: 20px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .text-hero h4{
+        font-size: 22px;
+    }
+
+    .text-hero h1{
+        font-size: 34px;
+        line-height: 42px;
+    }
+
+    .text-hero p{
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    .text-hero input{
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .text-hero button{
+        position: static;
+        width: 160px;
+        height: 45px;
+    }
+
+    .img-hero{
+        width: 100%;
+        padding: 0;
+        align-items: center;
+    }
+
+    .img-hero img{
+        width: 100%;
+        max-width: 450px;
+    }
+
+    .span-1{
+        left: 0;
+        top: 30px;
+    }
+
+    .span-2{
+        right: 0;
+        bottom: 30px;
+        width: 80px;
+        height: 80px;
+        font-size: 25px;
+    }
+
+
+    /* TOP CARDS */
+
+    .all-card{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        bottom: 50px;
+    }
+
+    .card{
+        width: 85%;
+        max-width: 300px;
+        height: 180px;
+    }
+
+    .card i{
+        font-size: 70px;
+    }
+
+
+    /* TREND */
+
+    .trend{
+        height: auto;
+        margin-top: 70px;
+        gap: 30px;
+        padding: 0 20px;
+    }
+
+    .trent-text{
+        width: 100%;
+        text-align: center;
+    }
+
+    .trend-text-second{
+        width: 100%;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .trend-text-second h3{
+        font-size: 24px;
+    }
+
+    .trend-text-second button{
+        width: 90px;
+        height: 45px;
+    }
+
+    .all-card-trend{
+        width: 100%;
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .card-trend{
+        width: 90%;
+        max-width: 300px;
+        padding: 0;
+    }
+
+    .first img{
+        width: 100%;
+    }
+
+    .first span{
+        left: auto;
+        right: 15px;
+    }
+
+
+    /* PLAY */
+
+    .play{
+        width: calc(100% - 30px);
+        height: auto;
+        margin: 120px auto;
+        padding: 40px 15px;
+        border-radius: 50px;
+    }
+
+    .text-play{
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+
+    .text-play h2{
+        font-size: 25px;
+    }
+
+    .second-text-play{
+        width: 100%;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .all-card-play{
+        width: 100%;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .card-play{
+        width: 90%;
+        max-width: 300px;
+    }
+
+    .card-play img{
+        width: 100%;
+    }
+
+
+    /* GAME */
+
+    .game{
+        margin: 80px 20px;
+        gap: 20px;
+    }
+
+    .game-text{
+        text-align: center;
+    }
+
+    .game-text h2{
+        font-size: 30px;
+    }
+
+    .all-card-game{
+        width: 100%;
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .card-game{
+        width: 90%;
+        max-width: 300px;
+    }
+
+    .card-game img{
+        width: 100%;
+    }
+
+    .card-game h5{
+        padding-left: 0;
+        text-align: center;
+    }
+
+
+    /* GAME 2 */
+
+    .game-2{
+        width: 100%;
+        height: auto;
+        min-height: auto;
+        flex-direction: column;
+        gap: 30px;
+        padding: 50px 15px;
+        position: relative;
+    }
+
+    .card-1,
+    .card-3{
+        position: relative;
+        left: auto;
+        right: auto;
+        width: 90%;
+        max-width: 400px;
+        height: auto;
+        min-height: 500px;
+    }
+
+    .card-2{
+        position: relative;
+        width: 90%;
+        max-width: 400px;
+        height: 300px;
+    }
+
+    .card-1 h1,
+    .card-3 h1{
+        font-size: 35px;
+    }
+
+    .input-game input{
+        width: 100%;
+        margin: 15px 0;
+    }
+
+    .input-game .btn{
+        position: static;
+        width: 130px;
+        margin-top: 10px;
+    }
+
+
+    /* FOOTER */
+
+    .site-footer{
+        margin-top: 50px;
+        border-top-left-radius: 60px;
+        border-top-right-radius: 60px;
+        padding: 40px 15px 30px;
+    }
+
+    .footer-container p{
+        font-size: 14px;
+        line-height: 1.7;
+    }
+}
+
+
+/* =========================
+   SMALL MOBILE
+========================= */
+
+@media (max-width: 480px){
+
+    header{
+        justify-content: space-between;
+    }
+
+    header img{
+        width: 80px;
+    }
+
+    .hero{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .text-hero h1{
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .text-hero h4{
+        font-size: 19px;
+    }
+
+    .text-hero p{
+        font-size: 14px;
+    }
+
+    .card{
+        width: 95%;
+    }
+
+    .trend-text-second{
+        flex-direction: column;
+    }
+
+    .trend-text-second h3{
+        font-size: 22px;
+    }
+
+    .second-text-play{
+        flex-direction: column;
+    }
+
+    .play{
+        border-radius: 35px;
+    }
+
+    .card-1,
+    .card-3{
+        width: 95%;
+        padding: 20px;
+    }
+
+    .card-1 h1,
+    .card-3 h1{
+        font-size: 30px;
+    }
+}
+button:hover{
+    background-color: rgb(80, 74, 235);
+}
+i:hover{
+    color: rgb(208, 74, 74);
+}
+
+    
